@@ -4,12 +4,15 @@ public class Empleado {
 
     private int id;
 
-    public Empleado(int i) {
+    public Empleado(int id) {
+        this.id = id;
     }
 
     @Override
     public String toString() {
-        return "Empleado{}";
+        return "Empleado{" +
+                "id=" + id +
+                '}';
     }
 
     public Empleado() {
